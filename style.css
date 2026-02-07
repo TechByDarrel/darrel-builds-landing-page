@@ -1,0 +1,182 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.6;
+  background-color: #f9fafb;
+  color: #0f172a;
+}
+
+/* ===== HERO SECTION ===== */
+#home {
+  background: linear-gradient(135deg, #0f172a, #020617);
+  color: #ffffff;
+  text-align: center;
+  padding: 4rem 1.5rem;
+}
+
+#home h2 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+#home p:first-of-type {
+  font-size: 1.1rem;
+  color: #38bdf8;
+  margin-bottom: 0.8rem;
+}
+
+#home p:last-of-type {
+  font-size: 0.95rem;
+  color: #e5e7eb;
+  max-width: 500px;
+  margin: 0 auto 1.5rem;
+}
+
+#home a {
+  display: inline-block;
+  background: #38bdf8;
+  color: #020617;
+  text-decoration: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#home a:hover {
+  background: #0ea5e9;
+  transform: translateY(-2px);
+}
+
+/* ===== FEATURES SECTION ===== */
+#features {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+#features h3 {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+  color: #020617;
+  font-weight: bold;
+}
+
+.features-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.feature-card {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.feature-card h4 {
+  margin-bottom: 0.5rem;
+  color: #0f172a;
+  font-weight: bold;
+}
+
+.feature-card p {
+  font-size: 0.9rem;
+  color: #475569;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+/* ===== ABOUT SECTION ===== */
+#about {
+  padding: 3rem 1.5rem;
+  text-align: center;
+  background: #ffffff;
+}
+
+#about h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #020617;
+  font-weight: bold;
+}
+
+#about p {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 0.95rem;
+  color: #475569;
+}
+
+/* ===== CALL TO ACTION ===== */
+#cta {
+  background: #020617;
+  color: #ffffff;
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+#cta h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+#cta a {
+  display: inline-block;
+  background: #38bdf8;
+  color: #020617;
+  padding: 0.7rem 1.5rem;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#cta a:hover {
+  background: #0ea5e9;
+  transform: translateY(-2px);
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background: #0f172a;
+  color: #94a3b8;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.85rem;
+}
+
+/* ===== RESPONSIVE DESIGN ===== */
+@media (min-width: 768px) {
+  #home h2 {
+    font-size: 2.8rem;
+  }
+
+  #home p:last-of-type {
+    font-size: 1rem;
+  }
+
+  .features-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .feature-card {
+    max-width: 300px;
+  }
+    }
